@@ -95,12 +95,26 @@ i {
         display: flex;
         flex-direction: column;
     }
-    #nos-coachs .container .les-coachs{
+    #nos-coachs .container-fluid .les-coachs{
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    #nos-coachs .container .les-coachs .card{
-        width: 200px;
+    #nos-coachs .container .les-coachs .card img{
+        width: 100%;
+    }
+
+    #nos-activites .container-fluid .rec{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    #nos-activites .container-fluid .seul img{
+        width: 100%;
+    }
+    #footer .container-fluid {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
